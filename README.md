@@ -16,3 +16,5 @@ This Readme contains some of the changes made. I have been periodically pushing 
 4. The last thing I did was add alt text to all of the images. This was done with the help of an FOSS applet developed by the [Social Security agency](https://www.ssa.gov/accessibility/andi/help/install.html)
 
 I ultmimately went through my code again and added comments in case someone does not like my readme.
+
+:100: :100: :100: 
