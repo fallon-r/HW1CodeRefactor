@@ -18,4 +18,4 @@ Content was swapped for article etc. One such example:
 
 I ultmimately went through my code again and added comments in case someone does not like my readme.
 
-:100: :100: :100: 
+:dog:
