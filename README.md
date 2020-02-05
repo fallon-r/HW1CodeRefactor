@@ -10,5 +10,9 @@ This Readme contains some of the changes made. I have been periodically pushing 
     <div>
     ``` Some of them were in devs, but were not necessarily semantic , like the unordered list in the header not being a nav.
     Content was swapped for article etc. 
-3. The third thing, the hero image was nested in an unnecessary div. 
-3. The Third thing I did was add alt text to all of the images. This was done with the help of an FOSS applet developed by the [Social Security agency](https://www.ssa.gov/accessibility/andi/help/install.html)
+
+3. The CSS was cleaned up after realizing there were a lot of redundant of ids/classes. One example was the section where every chunk had a class like search-engine-optimization.. I consolidated these into one class/or ID and adjusted the CSS accordingly. I did some research, since I wanted to see if there was any correlation between less lines of CSS and a faster load time. I wanted to see if I could get the images to load faster using a technique called lazy loading. Since this required some JS, I felt it was beyond the scope of this homework assignment. 
+
+4. The last thing I did was add alt text to all of the images. This was done with the help of an FOSS applet developed by the [Social Security agency](https://www.ssa.gov/accessibility/andi/help/install.html)
+
+I ultmimately went through my code again and added comments in case someone does not like my readme.
