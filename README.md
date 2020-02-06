@@ -16,6 +16,16 @@ Content was swapped for article etc. One such example:
 
 4. The last thing I did was add alt text to all of the images. This was done with the help of an FOSS applet developed by the [Social Security agency](https://www.ssa.gov/accessibility/andi/help/install.html)
 
+*Some interesting stuff*
+
+* In an effort to add as many semantic tags as possible, I made the contents of the **benefits** sectiion  `detail` instead of `div`. It made a bunch of dropdowns. It led to this :
+    ![](./detailsquirk.png)
+    **DetailQuirk** Behold the strangeness
+
+    *Additionally, I wanted to be cheeky and make all of the things linked in the `nav` a class to cut down clean up the CSS. While my stylesheet was smaller. The links no longer worked. I re-added the ids and _voila_! I was back in business. These are the small victories that make this work so fun (for me).
+
+
+
 I ultmimately went through my code again and added comments in case someone does not like my readme.
 
 :dog:
