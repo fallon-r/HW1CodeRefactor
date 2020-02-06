@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- This originally said Website -->
     <title>Horiseon</title>
 </head>
 
@@ -26,14 +27,16 @@
             </ul>
         </nav>
     </header>
-    <div id="hero">
+    <figure>
+        <div class="hero"></div>
+    </figure>
     </div>
     <!-- Making this article (because its the article) -->
 
     <article>
-        <!-- Making these into sections instead of divs for SEO stuff. Giving its own CSS class so that I can consolidate some of the CSS. The SEO class was too specific for a class, so I made it an ID -->
+        <!-- Making these into sections instead of divs for SEO stuff. Giving its own CSS class of Utility so that I can consolidate some of the CSS. The id's were returned for the links in the nav to still function-->
         <section class="utility" id="SEO">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <img src="./assets/images/search-engine-optimization.jpg" alt="A notebook with SEO written on it surrounded by a laptop, coffee and pencils" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your
@@ -41,7 +44,7 @@
             </p>
         </section>
         <section class="utility" id="ORM">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" alt="Someone on a cell phone looks at a laptop with a graph saying 'Reputation' trending up" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see
@@ -49,7 +52,7 @@
             </p>
         </section>
         <section class="utility" id="SMM">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+            <img src="./assets/images/social-media-marketing.jpg" alt="A cluttered desk where a diverse crowd are on their laptops and talking with a number of buzzwords like media, tweet and like floating" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
@@ -60,21 +63,21 @@
     <aside class="benefits">
         <div class="benefit">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
+            <img src="./assets/images/lead-generation.png" alt="A gear is being filtered into money" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
         <div class="benefit">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <img src="./assets/images/brand-awareness.png" alt="A well-dressed person with a lightbulb for a head has radio symbols next to their lightbulb head" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
         <div class="benefit">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"></img>
+            <img src="./assets/images/cost-management.png" alt="A gear is surrounded by coins and money"></img>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
