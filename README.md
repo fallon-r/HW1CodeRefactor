@@ -25,7 +25,7 @@ Content was swapped for article etc. One such example: 
     **DetailQuirk** Behold the strangeness
 
 * Additionally, I wanted to be cheeky and make all of the things linked in the `nav` a class to cut down clean up the CSS. While my stylesheet was smaller. The links no longer worked. I returned the ids and _voila_! I was back in business. These are the small victories that make this work so fun (for me).
-* I made a little checklist to keep track of the HW tasks. It was fun and helpful and I think I might try to do similar things for future assignments.
+* I made a little [checklist](https://rf-spuds.github.io/Hw_checklists/ "My little checklist") to keep track of the HW tasks. It was fun and helpful and I think I might try to do similar things for future assignments.
 
 
 I ultimately went through my code again and added comments in case someone does not like my readme.
