@@ -25,6 +25,13 @@ Content was swapped for article etc. One such example: 
     **DetailQuirk** Behold the strangeness
 
 * Additionally, I wanted to be cheeky and make all of the things linked in the `nav` a class to cut down clean up the CSS. While my stylesheet was smaller. The links no longer worked. I returned the ids and _voila_! I was back in business. These are the small victories that make this work so fun (for me).
+
+* I did a number of audits to make sure everything was copacetic. and these were the results: 
+
+    ![](./performance.png)
+    **Performance** That 97% irked me 
+
+    I got 100% for everything but accessibility, which was maddening. The audit itself says that manually tests are reccommended. The one issue was contrast for the p elements in the utility section. I have checked in a number of places and the contrast does meet the 4:5:1 standard. 
 * I made a little [checklist](https://rf-spuds.github.io/Hw_checklists/ "My little checklist") to keep track of the HW tasks. It was fun and helpful and I think I might try to do similar things for future assignments.
 
 
